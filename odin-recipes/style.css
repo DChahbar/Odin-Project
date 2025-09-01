@@ -1,0 +1,165 @@
+/* ==========================
+   General Reset
+========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    background: #fafafa;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ==========================
+   Header
+========================== */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #d35400;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* ==========================
+   Recipe List / Homepage Cards
+========================== */
+.recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
+    max-width: 260px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+    color: #d35400;
+}
+
+.card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #d35400;
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* ==========================
+   Recipe Pages
+========================== */
+.recipe-img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin: 20px 0 10px;
+    color: #d35400;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+p, ul, ol {
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* ==========================
+   Buttons / Links
+========================== */
+.btn, a {
+    display: inline-block;
+    background: #d35400;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    margin-top: 20px;
+}
+
+.btn:hover, a:hover {
+    background: #e67e22;
+    color: white;
+}
+
+/* ==========================
+   Footer
+========================== */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* ==========================
+   Responsive
+========================== */
+@media (max-width: 600px) {
+    .recipe-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
