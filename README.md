@@ -7,3 +7,6 @@ Odin-Landing Page Project: https://dchahbar.github.io/Odin-Project/odin-landing_
 
 
 Odin-Rock Paper Scissors Project: https://dchahbar.github.io/Odin-Project/odin-rock_paper_scissors/
+
+
+Odin-Etch-a-Sketch Project: https://dchahbar.github.io/Odin-Project/odin-etch-a-sketch/
