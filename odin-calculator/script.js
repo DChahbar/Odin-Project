@@ -84,7 +84,6 @@ function roundResult(num) {
   return Math.round(num * 1000) / 1000;
 }
 
-// Event listeners
 digits.forEach(btn => btn.addEventListener('click', () => appendNumber(btn.textContent)));
 operators.forEach(btn => btn.addEventListener('click', () => chooseOperator(btn.textContent)));
 equals.addEventListener('click', evaluate);
@@ -92,7 +91,6 @@ clearBtn.addEventListener('click', clear);
 backspaceBtn.addEventListener('click', deleteNumber);
 decimalBtn.addEventListener('click', appendDecimal);
 
-// Keyboard support
 window.addEventListener('keydown', handleKeyboard);
 
 function handleKeyboard(e) {
