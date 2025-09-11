@@ -10,3 +10,6 @@ Odin-Rock Paper Scissors Project: https://dchahbar.github.io/Odin-Project/odin-r
 
 
 Odin-Etch-a-Sketch Project: https://dchahbar.github.io/Odin-Project/odin-etch-a-sketch/
+
+
+Odin-Calculator Project: https://dchahbar.github.io/Odin-Project/odin-calculator/
