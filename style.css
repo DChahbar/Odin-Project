@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafc;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-list li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.project-list li:hover {
+  transform: translateX(5px);
+}
+
+a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
+}
